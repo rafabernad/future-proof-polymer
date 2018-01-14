@@ -1,0 +1,29 @@
+{
+  "name": "future-proof-polymer",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --config .build/webpack.dev.js --hot --inline"
+  },
+  "dependencies": {
+    "@polymer/polymer": "next"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-env": "^1.6.1",
+    "postcss-html-loader": "1.1.0",
+    "postcss-loader": "^2.0.10",
+    "text-loader": "0.0.1",
+    "webpack": "3.5.5",
+    "webpack-dev-server": "^2.10.0"
+  },
+  "resolutions": {
+    "@polymer/polymer": "3.0.0-pre.1",
+    "@webcomponents/webcomponentsjs": "1.0.22"
+  }
+}
